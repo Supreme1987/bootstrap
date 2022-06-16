@@ -24,7 +24,20 @@ header {
 .nav-item {
   padding-right: 23px;
 }
-.nav-item span {
+.nav-item a {
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 11px 15px;
+}
+.navbar-expand-lg .navbar-nav span {
   border: 1px solid #FFFFFF;
   border-radius: 15px;
   font-family: "20 Kopeek";
@@ -33,12 +46,9 @@ header {
   font-size: 16px;
   line-height: 140%;
   color: #FFFFFF;
-  padding: 7px 33px;
 }
-.nav-item a {
-  border: 1px solid #FFFFFF;
-  border-radius: 15px;
-  padding: 0px 12px;
+.navbar-expand-lg .navbar-nav span.nav-link {
+  padding: 7px 23px 7px 33px;
 }
 
 /*# sourceMappingURL=style.css.map */
