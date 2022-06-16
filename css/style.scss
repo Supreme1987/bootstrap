@@ -21,6 +21,8 @@ header{
     a {
       border: 1px solid #FFFFFF;
       border-radius: 50%;
+      width: 36px;
+      height: 36px;
       overflow:hidden;
           }
   }
@@ -34,24 +36,24 @@ header{
 
 .navbar-expand-lg {
   .navbar-nav {
-    .nav-link{
-      padding: 11px 15px;
-         }
-    span {
-      border: 1px solid #FFFFFF;
-      border-radius: 15px;
-      font-family: '20 Kopeek';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 140%;
-      color: #FFFFFF;
-      &.nav-link{
-        padding: 7px 23px 7px 33px;
+     .nav-link {
+       padding: 5px 10px}
+      span {
+        border: 1px solid #FFFFFF;
+        border-radius: 15px;
+        font-family: '20 Kopeek';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+
+        &.nav-link {
+          padding: 7px 23px 7px 33px;
+        }
       }
     }
   }
-}
 
 
 
