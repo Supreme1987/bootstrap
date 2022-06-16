@@ -1,0 +1,44 @@
+@import "bootstrap.css";
+@import "owl.theme.default.css";
+@import "owl.carousel.css";
+header {
+  z-index: 2;
+}
+
+.main_banner {
+  background-image: url("../images/main.jpg");
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+}
+.main_banner.item_2 {
+  background-image: url("../images/baby.jpg");
+}
+.main_banner.item_3 {
+  background-image: url("../images/cleaning.jpg");
+}
+.main_banner.item_4 {
+  background-image: url("../images/nicetone.jpg");
+}
+
+.nav-item {
+  padding-right: 23px;
+}
+.nav-item span {
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding: 7px 33px;
+}
+.nav-item a {
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  padding: 0px 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
