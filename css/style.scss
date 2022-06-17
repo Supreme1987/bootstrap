@@ -28,16 +28,26 @@ header{
   }
 
 .navbar-light {
-  .navbar-nav {
+  .navbar-nav {position: relative;
     .nav-link {color: #FFFFFF;
-    }
+      &.fb img{
+        position: absolute;
+      top:12px;
+        right: 96px;
+      }
+      &.inst img{
+        position: absolute;
+        top:12px;
+      right: 33px}
+          }
+
   }
 }
 
 .navbar-expand-lg {
   .navbar-nav {
      .nav-link {
-       padding: 5px 10px}
+       }
       span {
         border: 1px solid #FFFFFF;
         border-radius: 15px;

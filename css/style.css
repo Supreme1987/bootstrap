@@ -32,13 +32,23 @@ header {
   overflow: hidden;
 }
 
+.navbar-light .navbar-nav {
+  position: relative;
+}
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
 }
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 5px 10px;
+.navbar-light .navbar-nav .nav-link.fb img {
+  position: absolute;
+  top: 12px;
+  right: 96px;
 }
+.navbar-light .navbar-nav .nav-link.inst img {
+  position: absolute;
+  top: 12px;
+  right: 33px;
+}
+
 .navbar-expand-lg .navbar-nav span {
   border: 1px solid #FFFFFF;
   border-radius: 15px;
