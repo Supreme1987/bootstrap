@@ -2,7 +2,17 @@
 @import "owl.theme.default.css";
 @import "owl.carousel.css";
 header {
-  z-index: 2;
+  z-index: 11;
+}
+
+.main_section {
+  height: 100vh;
+}
+.main_section .h-100 {
+  height: 100vh;
+}
+.main_section .position-absolute {
+  z-index: 10;
 }
 
 .main_banner {
@@ -35,6 +45,13 @@ header {
 .navbar-light .navbar-nav {
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .navbar-light .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
 }
@@ -61,6 +78,146 @@ header {
 }
 .navbar-expand-lg .navbar-nav span.nav-link {
   padding: 7px 23px 7px 33px;
+}
+
+.firm_style {
+  padding-top: 68px;
+  padding-bottom: 134px;
+}
+
+.form_callback .form-check {
+  padding-left: 36px;
+}
+
+.firm_style h3 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
+
+.logos_and_names {
+  padding-bottom: 120px;
+}
+.logos_and_names h2 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+  padding-bottom: 40px;
+}
+.logos_and_names p {
+  font-size: 18px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.logos_and_names p.position-relative {
+  top: -30px;
+  right: 8px;
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+}
+.logos_and_names p span {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #181818;
+}
+
+.lifecore {
+  padding-bottom: 133px;
+}
+.lifecore h3 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
+.lifecore p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.lifecore .bg-primary {
+  background-color: #2B59C3 !important;
+}
+
+.look_project {
+  padding-bottom: 100px;
+}
+.look_project .btn-link {
+  color: black;
+}
+.look_project a {
+  padding: 20px 38px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.look_project a h3 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+}
+.look_project a p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+
+.show_more {
+  padding-bottom: 100px;
+}
+.show_more a {
+  padding: 20px 38px;
+}
+
+.gift {
+  padding-bottom: 77px;
+}
+.gift .bg-primary {
+  background-color: #2B59C3 !important;
+}
+.gift p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.gift span {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
 }
 
 /*# sourceMappingURL=style.css.map */
