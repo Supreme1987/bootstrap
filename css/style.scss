@@ -38,6 +38,17 @@
 
 header{
   z-index: 11;
+  p{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    @include max-screen(767px){
+      display: none;
+    }
+  }
   }
 .main_section{
   height: 100vh;
@@ -46,7 +57,7 @@ header{
       padding-bottom: 65px;
     }
     .btn{padding:23px 47px;
-    border-radius: 50%}
+    }
   }
   .position-absolute{
     z-index: 10;
@@ -67,31 +78,22 @@ header{
     a {
       border: 1px solid #FFFFFF;
       border-radius: 50%;
-      width: 36px;
-      height: 36px;
       overflow:hidden;
-          }
-  }
+      display: inline-flex;
+      }
+    .fb{
+      img{
+padding: 3px 8px;
+    }}
+    .inst{
+      img{
+        padding: 2px 3px;
+      }}
+     }
 
 .navbar-light {
   .navbar-nav {position: relative;
-    @include max-screen(767px){
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
 
-    }
-    .nav-link {color: #FFFFFF;
-      &.fb img{
-        position: absolute;
-      top:12px;
-        right: 96px;
-      }
-      &.inst img{
-        position: absolute;
-        top:12px;
-      right: 33px}
-          }
 
   }
 }
