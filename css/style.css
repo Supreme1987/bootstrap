@@ -1,6 +1,22 @@
 @import "bootstrap.css";
 @import "owl.theme.default.css";
 @import "owl.carousel.css";
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-Book.eot");
+  src: url("../fonts/20Kopeek-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/20Kopeek-Book.woff2") format("woff2"), url("../fonts/20Kopeek-Book.woff") format("woff"), url("../fonts/20Kopeek-Book.ttf") format("truetype"), url("../fonts/20Kopeek-Book.svg#20Kopeek-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek.eot");
+  src: url("../fonts/20Kopeek.eot?#iefix") format("embedded-opentype"), url("../fonts/20Kopeek.woff2") format("woff2"), url("../fonts/20Kopeek.woff") format("woff"), url("../fonts/20Kopeek.ttf") format("truetype"), url("../fonts/20Kopeek.svg#20Kopeek") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 header {
   z-index: 11;
 }
@@ -10,6 +26,13 @@ header {
 }
 .main_section .h-100 {
   height: 100vh;
+}
+.main_section .h-100 h2 {
+  padding-bottom: 65px;
+}
+.main_section .h-100 .btn {
+  padding: 23px 47px;
+  border-radius: 50%;
 }
 .main_section .position-absolute {
   z-index: 10;
@@ -88,6 +111,38 @@ header {
 .form_callback .form-check {
   padding-left: 36px;
 }
+.form_callback h3 {
+  font-family: "20 Kopeek Book", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
+.form_callback p {
+  font-family: "20 Kopeek Book", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #181818;
+}
+.form_callback p label {
+  font-family: "20 Kopeek", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #868686;
+}
+.form_callback p .btn {
+  font-family: "20 Kopeek", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
 
 .firm_style h3 {
   font-family: "20 Kopeek Book";
@@ -95,6 +150,14 @@ header {
   font-weight: 400;
   font-size: 38px;
   line-height: 110%;
+  color: #181818;
+}
+.firm_style p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
   color: #181818;
 }
 
@@ -175,7 +238,7 @@ header {
   line-height: 140%;
   color: #181818;
 }
-.look_project a h3 {
+.look_project h3 {
   font-family: "20 Kopeek Book";
   font-style: normal;
   font-weight: 400;
@@ -183,7 +246,7 @@ header {
   line-height: 100%;
   color: #181818;
 }
-.look_project a p {
+.look_project p {
   font-family: "20 Kopeek";
   font-style: normal;
   font-weight: 400;
@@ -196,7 +259,14 @@ header {
   padding-bottom: 100px;
 }
 .show_more a {
-  padding: 20px 38px;
+  padding: 23px 47px;
+  font-family: "20 Kopeek Book", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #FFFFFF;
+  background-color: #2B59C3 !important;
 }
 
 .gift {
@@ -205,15 +275,23 @@ header {
 .gift .bg-primary {
   background-color: #2B59C3 !important;
 }
+.gift h3 {
+  font-family: "20 Kopeek Book", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
 .gift p {
-  font-family: "20 Kopeek";
+  font-family: "20 Kopeek", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
 }
 .gift span {
-  font-family: "20 Kopeek Book";
+  font-family: "20 Kopeek Book", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
